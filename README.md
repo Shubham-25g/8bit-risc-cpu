@@ -1,4 +1,4 @@
-# 🧩 8-bit Pipelined RISC CPU — Verilog Project
+#  8-bit Pipelined RISC CPU — Verilog Project
 
 A custom-designed 8-bit RISC CPU core implemented in Verilog, featuring a simple 2-stage pipeline, ALU, register file, ROM, and hazard-free control flow.
 
@@ -6,7 +6,7 @@ Designed and simulated for educational purposes to demonstrate core CPU architec
 
 ---
 
-## 📌 Key Highlights
+## Key Highlights
 
 * ✅ 8-bit RISC-style architecture with minimal instruction set
 * ✅ 2-stage instruction pipeline: Fetch & Execute
@@ -18,26 +18,26 @@ Designed and simulated for educational purposes to demonstrate core CPU architec
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-1️⃣ **Install Tools**
+ **Install Tools**
 
 * [Icarus Verilog](http://iverilog.icarus.com/)
 * [GTKWave](http://gtkwave.sourceforge.net/)
 
-2️⃣ **Compile Design**
+**Compile Design**
 
 ```
 iverilog -o cpu_tb.vvp CPU_tb.v CPU.v ALU.v RegisterFile.v ControlUnit.v
 ```
 
-3️⃣ **Run Simulation**
+**Run Simulation**
 
 ```
 vvp cpu_tb.vvp
 ```
 
-4️⃣ **View Waveforms**
+**View Waveforms**
 
 ```
 gtkwave cpu_pipeline.vcd
@@ -45,7 +45,7 @@ gtkwave cpu_pipeline.vcd
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 8bit_risc_cpu/
@@ -61,23 +61,23 @@ gtkwave cpu_pipeline.vcd
 
 ---
 
-## 🎓 Why This Project
+## Why This Project
 
-✅ **Educational:** Demonstrates basic CPU architecture and RTL design.
-✅ **Practical:** Simulated with industry-standard open-source tools.
-✅ **Internship Ready:** Highlights practical Verilog, modular design, and digital design fundamentals.
+ **Educational:** Demonstrates basic CPU architecture and RTL design.
+ **Practical:** Simulated with industry-standard open-source tools.
+ **Internship Ready:** Highlights practical Verilog, modular design, and digital design fundamentals.
 
 ---
 
-## 📬 About Me
+##  About Me
 
-**👤 Shubham Gupta**
+** Shubham Gupta**
 B.Tech undergraduate interested in digital design, VLSI, and computer architecture.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/shubhamgupta2510)
 
 ---
 
-## ⚖️ License
+##  License
 
 This project is licensed under the MIT License — see [LICENSE](./LICENSE) for details.
