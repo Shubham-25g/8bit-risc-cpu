@@ -48,7 +48,7 @@ Designed and simulated for educational purposes to demonstrate core CPU architec
 ## Project Structure
 
 ```
-8bit_risc_cpu/
+8bit_cpu_project/
 ├── CPU.v             # Top-level CPU module
 ├── ALU.v             # Arithmetic Logic Unit
 ├── RegisterFile.v    # Register File
@@ -63,17 +63,16 @@ Designed and simulated for educational purposes to demonstrate core CPU architec
 
 ## Why This Project
 
- **Educational:** Demonstrates basic CPU architecture and RTL design.
- **Practical:** Simulated with industry-standard open-source tools.
- **Internship Ready:** Highlights practical Verilog, modular design, and digital design fundamentals.
+ * **Educational:** Demonstrates basic CPU architecture and RTL design.
+ * **Practical:** Simulated with industry-standard open-source tools.
+ * **Internship Ready:** Highlights practical Verilog, modular design, and digital design fundamentals.
 
 ---
 
 ##  About Me
 
-** Shubham Gupta**
+**Shubham Gupta**
 B.Tech undergraduate interested in digital design, VLSI, and computer architecture.
-
 🔗 [LinkedIn](https://www.linkedin.com/in/shubhamgupta2510)
 
 ---
