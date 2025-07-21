@@ -71,9 +71,9 @@ Designed and simulated for educational purposes to demonstrate core CPU architec
 
 ##  About Me
 
-**Shubham Gupta**
-    B.Tech undergraduate interested in digital design, VLSI, and Computer Architecture.
-    🔗 [LinkedIn](https://www.linkedin.com/in/shubhamgupta2510)
+**Shubham Gupta**  
+B.Tech undergraduate interested in digital design, VLSI, and Computer Architecture.  
+🔗 [LinkedIn](https://www.linkedin.com/in/shubhamgupta2510)
 
 ---
 
