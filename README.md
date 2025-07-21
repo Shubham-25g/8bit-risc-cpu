@@ -8,13 +8,13 @@ Designed and simulated for educational purposes to demonstrate core CPU architec
 
 ## Key Highlights
 
-* ✅ 8-bit RISC-style architecture with minimal instruction set
-* ✅ 2-stage instruction pipeline: Fetch & Execute
-* ✅ Custom ALU & Register File modules
-* ✅ ROM for instruction storage and PC flow
-* ✅ Hazard-free instruction execution
-* ✅ Verified using Icarus Verilog & GTKWave
-* ✅ Testbenches for functional verification
+* 8-bit RISC-style architecture with minimal instruction set
+* 2-stage instruction pipeline: Fetch & Execute
+* Custom ALU & Register File modules
+* ROM for instruction storage and PC flow
+* Hazard-free instruction execution
+* Verified using Icarus Verilog & GTKWave
+* Testbenches for functional verification
 
 ---
 
@@ -22,26 +22,26 @@ Designed and simulated for educational purposes to demonstrate core CPU architec
 
  **Install Tools**
 
-* [Icarus Verilog](http://iverilog.icarus.com/)
-* [GTKWave](http://gtkwave.sourceforge.net/)
+ * [Icarus Verilog](http://iverilog.icarus.com/)
+ * [GTKWave](http://gtkwave.sourceforge.net/)
 
-**Compile Design**
+ **Compile Design**
 
-```
-iverilog -o cpu_tb.vvp CPU_tb.v CPU.v ALU.v RegisterFile.v ControlUnit.v
-```
+ ```
+ iverilog -o cpu_tb.vvp CPU_tb.v CPU.v ALU.v RegisterFile.v ControlUnit.v
+ ```
 
-**Run Simulation**
+ **Run Simulation**
 
-```
-vvp cpu_tb.vvp
-```
+ ```
+ vvp cpu_tb.vvp
+ ```
 
-**View Waveforms**
+ **View Waveforms**
 
-```
-gtkwave cpu_pipeline.vcd
-```
+ ```
+ gtkwave cpu_pipeline.vcd
+ ```
 
 ---
 
